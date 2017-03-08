@@ -1,0 +1,129 @@
+{
+  "locked": false,
+  "version": 2,
+  "targets": {
+    ".NETFramework,Version=v4.6.1": {
+      "CoreCompat.System.Drawing/1.0.0-beta006": {
+        "type": "package",
+        "compile": {
+          "lib/net45/CoreCompat.System.Drawing.dll": {}
+        },
+        "runtime": {
+          "lib/net45/CoreCompat.System.Drawing.dll": {}
+        }
+      },
+      "OpenTK/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net20/OpenTK.dll": {}
+        },
+        "runtime": {
+          "lib/net20/OpenTK.dll": {}
+        }
+      },
+      "SharpCanvas/1.1.2": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "CoreCompat.System.Drawing": "1.0.0-beta006",
+          "OpenTK": "2.0.0"
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win10-x64": {
+      "CoreCompat.System.Drawing/1.0.0-beta006": {
+        "type": "package",
+        "compile": {
+          "lib/net45/CoreCompat.System.Drawing.dll": {}
+        },
+        "runtime": {
+          "lib/net45/CoreCompat.System.Drawing.dll": {}
+        }
+      },
+      "OpenTK/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net20/OpenTK.dll": {}
+        },
+        "runtime": {
+          "lib/net20/OpenTK.dll": {}
+        }
+      },
+      "SharpCanvas/1.1.2": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "CoreCompat.System.Drawing": "1.0.0-beta006",
+          "OpenTK": "2.0.0"
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win7-x64": {
+      "CoreCompat.System.Drawing/1.0.0-beta006": {
+        "type": "package",
+        "compile": {
+          "lib/net45/CoreCompat.System.Drawing.dll": {}
+        },
+        "runtime": {
+          "lib/net45/CoreCompat.System.Drawing.dll": {}
+        }
+      },
+      "OpenTK/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net20/OpenTK.dll": {}
+        },
+        "runtime": {
+          "lib/net20/OpenTK.dll": {}
+        }
+      },
+      "SharpCanvas/1.1.2": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "CoreCompat.System.Drawing": "1.0.0-beta006",
+          "OpenTK": "2.0.0"
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CoreCompat.System.Drawing/1.0.0-beta006": {
+      "sha512": "KOBeVy8FHx9zkXrIZAM8OdXPrimROmvfB02fOegrYIelNN/zWhsOwzONgD7gw7wOTJgAFfdwpme5CiMraJj47Q==",
+      "type": "package",
+      "path": "CoreCompat.System.Drawing/1.0.0-beta006",
+      "files": [
+        "CoreCompat.System.Drawing.1.0.0-beta006.nupkg.sha512",
+        "CoreCompat.System.Drawing.nuspec",
+        "lib/net45/CoreCompat.System.Drawing.dll",
+        "lib/netstandard1.3/CoreCompat.System.Drawing.dll"
+      ]
+    },
+    "OpenTK/2.0.0": {
+      "sha512": "jMPeuMzw5B+5NJshyaCfnUfPnLgPDZTQ0lHF+4I6i3P5rJqPAMAdWFEYKGlpbnHzUGA0rL1uvQBUa3VnuV4mUA==",
+      "type": "package",
+      "path": "OpenTK/2.0.0",
+      "files": [
+        "content/OpenTK.dll.config",
+        "lib/net20/OpenTK.dll",
+        "lib/net20/OpenTK.xml",
+        "opentk.2.0.0.nupkg.sha512",
+        "opentk.nuspec"
+      ]
+    },
+    "SharpCanvas/1.1.2": {
+      "type": "project",
+      "path": "../SharpCanvas/project.json"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "": [],
+    ".NETFramework,Version=v4.6.1": [
+      "CoreCompat.System.Drawing >= 1.0.0-beta006",
+      "OpenTK >= 2.0.*",
+      "SharpCanvas >= 1.1.*"
+    ]
+  },
+  "tools": {},
+  "projectFileToolGroups": {}
+}
